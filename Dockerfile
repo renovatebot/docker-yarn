@@ -2,7 +2,7 @@ FROM renovate/node@sha256:b675b096edd733b2045d3ef4ba0adbf3cce65f814d68b0eb42a06b
 
 USER root
 
-ENV YARN_VERSION=1.10.1
+ARG YARN_VERSION
 
 RUN npm i -g yarn@$YARN_VERSION
 
