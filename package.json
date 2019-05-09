@@ -3,7 +3,7 @@
     "fs-extra": "7.0.1",
     "got": "9.6.0",
     "semver": "6.0.0",
-    "yarn": "1.15.2"
+    "yarn": "1.16.0"
   },
   "devDependencies": {
     "eslint": "5.16.0",
