@@ -1,4 +1,3 @@
 {
-  "extends": ["config:base"],
-  "pinDigests": true
+  "extends": ["github>renovatebot/docker-template"]
 }
