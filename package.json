@@ -2,7 +2,7 @@
   "dependencies": {
     "fs-extra": "8.0.1",
     "got": "9.6.0",
-    "semver": "6.0.0",
+    "semver": "6.1.1",
     "yarn": "1.16.0"
   },
   "devDependencies": {
