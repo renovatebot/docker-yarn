@@ -1,22 +1,15 @@
 {
+  "name": "docker-yarn",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dockerised yarn command line tool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renovatebot/docker-yarn.git"
+  },
+  "author": "Rhys Arkins <rhys@arkins.net>",
+  "license": "MIT",
   "dependencies": {
-    "fs-extra": "8.0.1",
-    "got": "9.6.0",
-    "semver": "6.0.0",
     "yarn": "1.16.0"
-  },
-  "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "4.3.0",
-    "eslint-plugin-import": "2.17.3",
-    "eslint-plugin-promise": "4.1.1",
-    "prettier": "1.17.1"
-  },
-  "scripts": {
-    "eslint": "eslint *.js",
-    "eslint-fix": "eslint --fix *.js",
-    "prettier": "prettier --list-different \"**/*.{js,json,md}\"",
-    "prettier-fix": "prettier --write \"**/*.{js,json,md}\""
   }
 }

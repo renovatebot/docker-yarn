@@ -1,3 +1,5 @@
 # docker-yarn
 
-Docker image for Yarn
+Dockerised yarn command line tool
+
+The "package.json" exists only to trigger Renovate PRs.

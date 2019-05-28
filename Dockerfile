@@ -6,4 +6,8 @@ ARG YARN_VERSION
 
 RUN npm i -g yarn@$YARN_VERSION
 
+RUN chmod -R a+rw /usr/local
+
+RUN chown -R ubuntu:ubuntu /home/ubuntu
+
 USER ubuntu
