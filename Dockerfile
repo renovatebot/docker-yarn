@@ -3,3 +3,5 @@ FROM renovate/node@sha256:887c567b604505a2a97985f3f7ed4b435e42b0dac09f3220a41303
 ARG YARN_VERSION
 
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
+
+ENV PATH="/home/ubuntu/.yarn/bin:/home/ubuntu/.config/yarn/global/node_modules/.bin:$PATH"
