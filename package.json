@@ -10,6 +10,6 @@
   "author": "Rhys Arkins <rhys@arkins.net>",
   "license": "MIT",
   "dependencies": {
-    "yarn": "1.19.2"
+    "yarn": "1.21.0"
   }
 }
