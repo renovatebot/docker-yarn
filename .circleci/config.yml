@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: renovate/buildpack-deps
+      - image: renovate/buildpack-deps@sha256:bb845d26389f08bf4151248b95d9e5b87e503ec942d30c7746ae0fbb5374fd82
     steps:
       - checkout
       - setup_remote_docker
