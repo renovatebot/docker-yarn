@@ -1,4 +1,4 @@
-FROM renovate/node@sha256:d9626e860e8370c9d376e9dfe7d0005226dc3a4ab73170a47e30804c33de8b6e
+FROM renovate/node@sha256:57f31fefc1a2018d39e5bb0e3dd778d8d8598a12aa02eb87d6d968e0eda3aeb1
 
 ARG YARN_VERSION
 
