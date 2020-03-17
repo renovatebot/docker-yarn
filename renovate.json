@@ -1,3 +1,25 @@
 {
-  "extends": ["github>renovatebot/docker-template"]
+  "extends": [
+    "config:base",
+    ":rebaseStalePrs",
+    ":masterIssue",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    "github>renovatebot/docker-template"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["major"],
+      "masterIssueApproval": true
+    }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": [
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sARG .*?_VERSION=(?<currentValue>.*)\\s"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
+    }
+  ]
 }
