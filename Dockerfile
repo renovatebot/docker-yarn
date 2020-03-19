@@ -1,4 +1,4 @@
-FROM renovate/node@sha256:665f3ca0226c707eab7c5f2ab074bb61e767547e7bb859733dde4f72251a87b3
+FROM renovate/node@sha256:4d07f7b5ba49a1905dc5f822fad5c77b4eef675f4328110aa9f1cf8f91d32f1e
 
 # renovate: datasource=npm depName=yarn
 ARG YARN_VERSION=1.22.4
