@@ -8,6 +8,7 @@ LABEL org.opencontainers.image.source="https://github.com/renovatebot/docker-yar
 
 
 #required by installer
+# renovate: datasource=docker depName=renovate/node versioning=docker
 ARG NODE_VERSION=12
 
 RUN /usr/local/build/yarn.sh
