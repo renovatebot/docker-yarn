@@ -6,10 +6,9 @@ RUN install-tool node
 
 # renovate: datasource=npm depName=yarn versioning=npm
 ARG YARN_VERSION=1.22.4
+RUN install-tool yarn
 
 LABEL org.opencontainers.image.source="https://github.com/renovatebot/docker-yarn" \
       org.opencontainers.image.version="${YARN_VERSION}"
-
-RUN install-tool yarn
 
 USER 1000
