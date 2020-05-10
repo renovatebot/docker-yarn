@@ -23,8 +23,6 @@ jobs:
     needs: [cleanup]
     runs-on: ubuntu-latest
 
-    timeout-minutes: 60
-
     steps:
 
       - uses: actions/checkout@v2
