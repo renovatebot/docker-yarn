@@ -1,7 +1,7 @@
 FROM renovate/buildpack:1@sha256:0fa21d11578682fb27ab2abdf885854ae4ce4fe05a411622c371adccef0cd755
 
 # renovate: datasource=docker depName=node versioning=docker
-ARG NODE_VERSION=12.16.2
+ARG NODE_VERSION=12.16.3
 RUN install-tool node
 
 # renovate: datasource=npm depName=yarn versioning=npm
